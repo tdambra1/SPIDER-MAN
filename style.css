@@ -267,6 +267,15 @@ a {
 }
 .multiverse__video {
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.multiverse__video-vid {
+    transition: all 1s;
+}
+
+.multiverse__video-vid:hover {
+    transform: scale(1.2);
 }
 
 /* ENEMIGOS */
