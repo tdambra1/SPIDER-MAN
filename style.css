@@ -15,22 +15,37 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    background-color: rgb(180, 0, 0);
+    background: rgb(130,0,0);
+background: linear-gradient(0deg, rgba(130,0,0,1) 20%, rgba(150,0,0,1) 40%, rgba(170,0,0,1) 60%, rgba(190,0,0,1) 80%, rgba(210,0,0,1) 100%);
+    
 }
 
 .header__title {
     font-family: 'Joan';
     font-size: 50px;
-    background-color: rgb(180, 0, 0);
+    backface-visibility: hidden;
     padding: 25px;
     border-top: 25px;
+    animation: ease-in animation 2s;
 }
 
 .header__options {
     text-align: end;
-    background-color: rgb(180, 0, 0);
+    backface-visibility: hidden;
     padding: 40px;
     font-family: "Joan";
+    animation: ease-in animation 2s;
+}
+
+@keyframes animation {
+    0% {
+        transform: scale(0);
+    }
+
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 a {
@@ -39,7 +54,7 @@ a {
 }
 
 .copyright {
-    background-color: rgb(124, 1, 1);
+    background: rgba(60,0,0,1);
     font-style: italic;
     text-align: end;
     padding-right: 10px;
@@ -62,7 +77,8 @@ a {
     flex-direction: column;
     text-align:justify;
     font-size: 20px;
-    background-color: rgb(180, 0, 0);
+    background: rgb(70,0,0);
+    background: linear-gradient(0deg, rgba(70,0,0,1) 25%, rgba(90,0,0,1) 50%, rgba(110,0,0,1) 75%, rgba(130,0,0,1) 100%);
     font-family: "Joan";
     padding: 0px 20px;
 }
@@ -75,41 +91,55 @@ a {
 
 .text__two {
     font-size: 20px;
-    background-color: rgb(180, 0, 0);
     padding-top: 0px;
 }
 
 .start {
     text-align: center;
     padding: 50px;
-    background-color: rgb(180, 0, 0);
-}
+    background: rgb(60,0,0);
+    background: linear-gradient(0deg, rgba(60,0,0,1) 20%, rgba(70,0,0,1) 100%);}
 
 .start__button {
     font-size: 20px;
     border-radius: 5px;
     font-family: "Joan";
+    transition: all 0.5s;
+}
+
+.start__button:hover {
+    transform: scale(1.3);
 }
 
 /* HISTORIA */
 
+.story { 
+    background: rgb(70,0,0);
+    background: linear-gradient(0deg, rgba(70,0,0,1) 25%, rgba(90,0,0,1) 50%, rgba(110,0,0,1) 75%, rgba(130,0,0,1) 100%);
+}
+
 .story__title {
     text-align: center;
     font-family: "Joan";
-    background-color: rgb(180, 0, 0);
     font-size: 40px;
     padding: 50px;
+    animation: ease-in animation 2s;
+    
 }
 .story__article {
     padding: 15px;
     display: flex;
-    background-color: rgb(180, 0, 0);
     align-items: center;
 }
 
 .story__article-img {
     height: 400px;
     padding-top:50px ;
+    transition: all 1s;
+}
+
+.story__article-img:hover {
+    transform: scale(1.1);
 }
 .story__article-p {
     font-size: 20px;
@@ -121,21 +151,28 @@ a {
 .video__title {
     font-size: 35px;
     text-align: center;
-    background-color: rgb(180, 0, 0);
     padding-top: 100px;
     font-family: "Joan";
+    animation: ease-in animation 2s;
 }
-.video_position{
+.video__position{
     text-align: center;
     padding: 150px;
-    background-color: rgb(180, 0, 0);
     margin: 0px;
+}
+
+.video__position-vid {
+    transition: all 1s;
+}
+
+.video__position-vid:hover {
+    transform: scale(1.8);
 }
 
 .continueto {
     text-align: center;
     padding: 30px;
-    background-color: rgb(180, 0, 0);
+    background: rgba(70,0,0,1);
     font-family: "Joan";
     
 }
@@ -144,24 +181,30 @@ a {
     font-size: 20px;
     border-radius: 5px;
     font-family: "Joan";
+    transition: all 0.5s;
 }
 
+.continueto__button:hover {
+    transform: scale(1.3);
+}
 
 /* SPIDER-VERSE */
 
 .intro {
     text-align: center;
     font-family: "Joan";
-    background-color: rgb(180, 0, 0);
+    background: rgb(70,0,0);
+    background: linear-gradient(0deg, rgba(70,0,0,1) 25%, rgba(90,0,0,1) 50%, rgba(110,0,0,1) 75%, rgba(130,0,0,1) 100%);
 }
 
 .intro__title {
     font-size: 30px;
+    animation: ease-in animation 2s;
+    backface-visibility: hidden;
 }
 
 .intro__p {
     font-size: 20px;
-    background-color: rgb(180, 0, 0);
     color: white;
     padding: 100px;
     padding-bottom: 250px;
@@ -170,13 +213,14 @@ a {
     background-size: cover;
 }
 
+
 .multiverse__titleleft {
     padding: 15px;
     font-size: 40px;
     font-style: bold;
     font-weight: 350;
     font-family: "Joan";
-    background-color: rgb(180, 0, 0);
+    animation: ease-in animation 2s;
 }
 
 .multiverse__titleright {
@@ -185,21 +229,27 @@ a {
     font-style: bold;
     font-weight: 350;
     font-family: "Joan";
-    background-color: rgb(180, 0, 0);
     text-align: end;
+    animation: ease-in animation 2s;
 }
 
 .multiverse__text {
     padding: 15px;
     display: flex;
-    background-color: rgb(180, 0, 0);
     align-items: center;
     justify-content: space-between;
 }
 
 .multiverse__text-img {
-    height: 400px;
+    height: 370px;
+    width: 270px;
     padding-top: 20px;
+    padding: 50px;
+    transition: all 1s;
+}
+
+.multiverse__text-img:hover {
+    transform: scale(1.5);
 }
 
 .multiverse__text-p {
@@ -209,63 +259,77 @@ a {
 }
 .multiverse__videotitle {
     text-align: center;
-    background-color: rgb(180, 0, 0);
     font-size: 30px;
     font-family: "Joan";
     padding-top: 30px;
     padding-bottom: 40px;
+    animation: ease-in animation 2s;
 }
 .multiverse__video {
     text-align: center;
-    background-color: rgb(180, 0, 0);
 }
 
 /* ENEMIGOS */
-
 .background {
     background-image: url(./images/Spider-Man\ Enemies.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.background__title {
     padding: 500px 150px;
     text-align: center;
     font-size: 100px;
+    font-family: "Joan";
     color: white;
-    background-color: rgb(180, 0, 0);
+    animation: ease-in animation 2s;
+}
+
+.enemies {
+    background: rgb(70,0,0);
+    background: linear-gradient(0deg, rgba(70,0,0,1) 25%, rgba(90,0,0,1) 50%, rgba(110,0,0,1) 75%, rgba(130,0,0,1) 100%);
 }
 
 .enemies__titleleft {
     padding: 15px;
     font-size: 40px;
+    padding-left: 40px;
     font-style: bold;
     font-weight: 350;
     font-family: "Joan";
-    background-color: rgb(180, 0, 0);
+    animation: ease-in animation 2s;
 }
 
 .enemies__titleright {
     padding: 15px;
+    padding-right: 40px;
     font-size: 40px;
     font-style: bold;
     font-weight: 350;
     font-family: "Joan";
-    background-color: rgb(180, 0, 0);
     text-align: end;
+    animation: ease-in animation 2s;
 }
 
 .enemies__text {
     padding: 15px;
     display: flex;
-    background-color: rgb(180, 0, 0);
     align-items: center;
-    justify-content: space-between
-
+    justify-content: space-between;
+    
 }
 
 .enemies__text-img {
-    height: 400px;
-    padding-top: 20px;
+    height: 370px;
+    width: 270px;
+    padding: 40px;
+    transition: all 1s;
+}
+
+.enemies__text-img:hover {
+    transform: scale(1.2);
 }
 
 .enemies__text-p {
@@ -276,7 +340,6 @@ a {
 }
 
 .grid {
-    background-color: rgb(180, 0, 0);
     padding: 50px;
     display: grid;
     grid-template-columns: repeat(2,1fr) ;
@@ -287,35 +350,57 @@ a {
     
 }
 
-.textsinistersix {
+.grid__img {
+    transition: all 1s
+}
+
+.grid__img:hover {
+    transform: scale(1.2);
+}
+
+.sinistersix {
+    background: rgb(60,0,0);
+    background: linear-gradient(0deg, rgba(60,0,0,1) 20%, rgba(70,0,0,1) 100%);
+}
+
+.textsinistersix__text {
     text-align: center;
     font-family: "Joan";
-    background-color: rgb(180, 0, 0);
     font-size: 20px;
     padding: 30px;
 }
 
-.sinistersix {
+.sinistersix__title {
     text-align: center;
     font-family: "Joan";
-    background-color: rgb(180, 0, 0);
     font-size: 40px;
     padding: 30px;
 }
 
+.sinistersix__continueto {
+    text-align: center;
+    padding: 30px;
+    font-family: "Joan";
+    
+}
 
 /* PELICULAS */
 
 .movies {
+    background: rgb(70,0,0);
+    background: linear-gradient(0deg, rgba(70,0,0,1) 25%, rgba(90,0,0,1) 50%, rgba(110,0,0,1) 75%, rgba(130,0,0,1) 100%);
+}
+
+.movies__div-title {
     text-align: center;
     font-size: 30px;
-    background-color: rgb(180, 0, 0);
+    animation: ease-in animation 2s;
+    padding-top: 30px;
 
 }
 
-.moviestext {
+.movies__text {
     text-align: center;
-    background-color: rgb(180, 0, 0);
     padding: 30px;
 }
 
@@ -323,24 +408,32 @@ section {
     font-family: "Joan";
 }
 
-.raimiwebbmcu {
-    background-color: rgb(180, 0, 0);
+.movies__raimiwebbmcu {
     text-align: center;
 }
 
-.raimiwebbmcu__title {
+.movies__raimiwebbmcu-title {
     font-size: 30px;
     padding: 30px;
     padding-top: 80px;
-
+    animation: ease-in animation 2s;
 }
 
-.raimiwebbmcu__text {
+.movies__raimiwebbmcu-text {
     font-size: 20px;
     padding: 30px;
     font-family: "Joan";
 }
 
+.movies__raimiwebbmcu-img-x {
+    transition: all 1s;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.movies__raimiwebbmcu-img-x:hover {
+    transform: scale(1.1);
+}
 
 
 
