@@ -1,0 +1,492 @@
+@font-face {
+    font-family: 'Joan';
+    src: url('./fonts/Joan-Regular.ttf');
+    font-style: normal;
+}
+
+/* INDEX */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: rgb(180, 0, 0);
+}
+
+.header__title {
+    font-family: 'Joan';
+    font-size: 50px;
+    background-color: rgb(180, 0, 0);
+    padding: 25px;
+    border-top: 25px;
+}
+
+.header__options {
+    text-align: end;
+    background-color: rgb(180, 0, 0);
+    padding: 40px;
+    font-family: "Joan";
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.copyright {
+    background-color: rgb(124, 1, 1);
+    font-style: italic;
+    text-align: end;
+    padding-right: 10px;
+    font-family: "Joan";
+}
+
+.nav__backgroundphoto {
+    border: 5px ;
+    padding: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    padding: 600px 100px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    font-size: 20px;
+    background-color: rgb(180, 0, 0);
+    font-family: "Joan";
+    padding: 0px 20px;
+}
+
+.text__one {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+
+.text__two {
+    font-size: 20px;
+    background-color: rgb(180, 0, 0);
+    padding-top: 0px;
+}
+
+.start {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(180, 0, 0);
+}
+
+.start__button {
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: "Joan";
+}
+
+/* HISTORIA */
+
+.story__title {
+    text-align: center;
+    font-family: "Joan";
+    background-color: rgb(180, 0, 0);
+    font-size: 40px;
+    padding: 50px;
+}
+.story__article {
+    padding: 15px;
+    display: flex;
+    background-color: rgb(180, 0, 0);
+    align-items: center;
+}
+
+.story__article-img {
+    height: 400px;
+    padding-top:50px ;
+}
+.story__article-p {
+    font-size: 20px;
+    padding: 20px;
+    font-family: "Joan";
+    font-style: oblique;
+}
+
+.video__title {
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(180, 0, 0);
+    padding-top: 100px;
+    font-family: "Joan";
+}
+.video_position{
+    text-align: center;
+    padding: 150px;
+    background-color: rgb(180, 0, 0);
+    margin: 0px;
+}
+
+.continueto {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(180, 0, 0);
+    font-family: "Joan";
+    
+}
+
+.continueto__button {
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: "Joan";
+}
+
+
+/* SPIDER-VERSE */
+
+.intro {
+    text-align: center;
+    font-family: "Joan";
+    background-color: rgb(180, 0, 0);
+}
+
+.intro__title {
+    font-size: 30px;
+}
+
+.intro__p {
+    font-size: 20px;
+    background-color: rgb(180, 0, 0);
+    color: white;
+    padding: 100px;
+    padding-bottom: 250px;
+    background-image: url(./images/Wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.multiverse__titleleft {
+    padding: 15px;
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 350;
+    font-family: "Joan";
+    background-color: rgb(180, 0, 0);
+}
+
+.multiverse__titleright {
+    padding: 15px;
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 350;
+    font-family: "Joan";
+    background-color: rgb(180, 0, 0);
+    text-align: end;
+}
+
+.multiverse__text {
+    padding: 15px;
+    display: flex;
+    background-color: rgb(180, 0, 0);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.multiverse__text-img {
+    height: 400px;
+    padding-top: 20px;
+}
+
+.multiverse__text-p {
+    font-size: 20px;
+    padding: 20px;
+    font-family: "Joan";
+}
+.multiverse__videotitle {
+    text-align: center;
+    background-color: rgb(180, 0, 0);
+    font-size: 30px;
+    font-family: "Joan";
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.multiverse__video {
+    text-align: center;
+    background-color: rgb(180, 0, 0);
+}
+
+/* ENEMIGOS */
+
+.background {
+    background-image: url(./images/Spider-Man\ Enemies.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 500px 150px;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    background-color: rgb(180, 0, 0);
+}
+
+.enemies__titleleft {
+    padding: 15px;
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 350;
+    font-family: "Joan";
+    background-color: rgb(180, 0, 0);
+}
+
+.enemies__titleright {
+    padding: 15px;
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 350;
+    font-family: "Joan";
+    background-color: rgb(180, 0, 0);
+    text-align: end;
+}
+
+.enemies__text {
+    padding: 15px;
+    display: flex;
+    background-color: rgb(180, 0, 0);
+    align-items: center;
+    justify-content: space-between
+
+}
+
+.enemies__text-img {
+    height: 400px;
+    padding-top: 20px;
+}
+
+.enemies__text-p {
+    font-size: 20px;
+    padding: 20px;
+    font-family: "Joan";
+    text-align: center;
+}
+
+.grid {
+    background-color: rgb(180, 0, 0);
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-template-rows: repeat(1,1fr)  ;
+    justify-items: center;
+    align-items:center ;
+    gap: 10px;
+    
+}
+
+.textsinistersix {
+    text-align: center;
+    font-family: "Joan";
+    background-color: rgb(180, 0, 0);
+    font-size: 20px;
+    padding: 30px;
+}
+
+.sinistersix {
+    text-align: center;
+    font-family: "Joan";
+    background-color: rgb(180, 0, 0);
+    font-size: 40px;
+    padding: 30px;
+}
+
+
+/* PELICULAS */
+
+.movies {
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(180, 0, 0);
+
+}
+
+.moviestext {
+    text-align: center;
+    background-color: rgb(180, 0, 0);
+    padding: 30px;
+}
+
+section {
+    font-family: "Joan";
+}
+
+.raimiwebbmcu {
+    background-color: rgb(180, 0, 0);
+    text-align: center;
+}
+
+.raimiwebbmcu__title {
+    font-size: 30px;
+    padding: 30px;
+    padding-top: 80px;
+
+}
+
+.raimiwebbmcu__text {
+    font-size: 20px;
+    padding: 30px;
+    font-family: "Joan";
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+    
+    /* INDEX */
+    
+    .header {
+        flex-direction: column;
+    }
+    
+    .header__options {
+        padding: 20px;
+    }
+    
+    .nav__backgroundphoto {
+        padding: 400px 100px;
+        background-attachment: local;
+    }
+    
+    .text__one {
+        text-align: center;   
+        font-size: 19px;
+       }
+    
+    .text__two {
+        text-align: center;   
+        font-size: 19px;
+       }
+    
+    .copyright {
+        font-size: 11px;
+    }
+    
+    /* RESTA FINALIZAR */
+    }
+
+@media only screen and (max-width: 576px) {
+
+/* INDEX */
+
+.header {
+    flex-direction: column;
+}
+
+.header__options {
+    padding: 20px;
+}
+
+.nav__backgroundphoto {
+    padding: 400px 100px;
+    background-attachment: local;
+}
+.text__one {
+ text-align: center;   
+ font-size: 17px;
+}
+
+.text__two {
+    text-align: center;
+    font-size: 17px;
+}
+
+.copyright {
+    font-size: 8px;
+}
+
+/* HISTORIA */
+.story__article {
+    flex-direction: column;
+}
+
+.video_position {
+    padding: 0;
+}
+
+/* SPIDER-VERSE */
+
+.multiverse__titleleft {
+    font-size: 30px;
+}
+
+.multiverse__titleright {
+    font-size: 30px;
+}
+
+.multiverse__text-p {
+    font-size: 12px;
+}
+
+/* ENEMIGOS */
+.background {
+    padding: 200px 10px;
+    background-attachment: local;
+    font-size: 60px;
+}
+
+.enemies__titleleft {
+    font-size: 30px;
+}
+
+.enemies__titleright {
+    font-size: 30px;
+}
+
+.enemies__text-p {
+    font-size: 12px;
+}
+
+.textsinistersix {
+    font-size: 14px;
+}
+
+.grid {
+    grid-template-columns: repeat(1,1fr) ;
+    grid-template-rows: repeat(4,1fr)  ;
+}
+
+.grid__img {
+    width: 450px;
+    height: 300px;
+    padding: 0;
+}
+
+/* PELICULAS */
+
+.movies {
+    padding-top: 40px;
+    font-size: 27px;
+}
+
+.raimiwebbmcu__title {
+    font-size: 27px;
+}
+
+.raimiwebbmcu__img-x {
+    width: 500px;
+    height: 300px;
+}
+
+.raimiwebbmcu__text {
+    font-size: 15px;
+}
+
+}
+
