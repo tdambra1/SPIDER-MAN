@@ -215,7 +215,7 @@ a {
     font-weight: 350;
     font-family: "Joan";
     animation: ease-in animation 2s;
-    text-align: center;
+    text-align: start;
 }
 
 .multiverse__titleright {
