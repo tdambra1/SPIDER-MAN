@@ -12,15 +12,34 @@
 }
 
 header { 
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     align-items: baseline;
     background: rgb(130,0,0);
 background: linear-gradient(0deg, rgba(130,0,0,1) 20%, rgba(150,0,0,1) 40%, rgba(170,0,0,1) 60%, rgba(190,0,0,1) 80%, rgba(210,0,0,1) 100%);
     
 }
 
-.header__title {
+.navbar {
+    width: 100%;
+    font-family: "Joan";
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 50px;
+}
+
+.nav-link  {
+    font-size: 32px;
+    padding: 0px 0px;
+}
+
+.navbar-collapse {
+    flex-grow: initial;
+}
+
+/* .header__title {
     font-family: 'Joan';
     font-size: 50px;
     backface-visibility: hidden;
@@ -35,7 +54,7 @@ background: linear-gradient(0deg, rgba(130,0,0,1) 20%, rgba(150,0,0,1) 40%, rgba
     padding: 40px;
     font-family: "Joan";
     animation: ease-in animation 2s;
-}
+} */
 
 @keyframes animation {
     0% {
@@ -585,4 +604,6 @@ section {
 .movies__raimiwebbmcu-img-x {
     height: 350px;
     width: 500px;
+}
+
 }
