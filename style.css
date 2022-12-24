@@ -11,15 +11,6 @@
     box-sizing: border-box;
 }
 
-header { 
-    /* display: flex;
-    justify-content: space-between; */
-    align-items: baseline;
-    background: rgb(130,0,0);
-background: linear-gradient(0deg, rgba(130,0,0,1) 20%, rgba(150,0,0,1) 40%, rgba(170,0,0,1) 60%, rgba(190,0,0,1) 80%, rgba(210,0,0,1) 100%);
-    
-}
-
 .navbar {
     width: 100%;
     font-family: "Joan";
@@ -28,6 +19,8 @@ background: linear-gradient(0deg, rgba(130,0,0,1) 20%, rgba(150,0,0,1) 40%, rgba
 
 .navbar-brand {
     font-size: 50px;
+    backface-visibility: hidden;
+    animation: ease-in animation 2s;
 }
 
 .nav-link  {
@@ -37,24 +30,9 @@ background: linear-gradient(0deg, rgba(130,0,0,1) 20%, rgba(150,0,0,1) 40%, rgba
 
 .navbar-collapse {
     flex-grow: initial;
-}
-
-/* .header__title {
-    font-family: 'Joan';
-    font-size: 50px;
     backface-visibility: hidden;
-    padding: 25px;
-    border-top: 25px;
     animation: ease-in animation 2s;
 }
-
-.header__options {
-    text-align: end;
-    backface-visibility: hidden;
-    padding: 40px;
-    font-family: "Joan";
-    animation: ease-in animation 2s;
-} */
 
 @keyframes animation {
     0% {
@@ -68,12 +46,23 @@ background: linear-gradient(0deg, rgba(130,0,0,1) 20%, rgba(150,0,0,1) 40%, rgba
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
+    font-family: "Joan";
+
 }
 
+.btn {
+    transition: all 0s;
+}
+
+    .btn:hover {
+    transform: scale(1.3);
+}
+
+
 .copyright {
-    background: rgba(60,0,0,1);
+    background: rgba(130,0,0,1);
     font-style: italic;
     text-align: end;
     padding-right: 10px;
@@ -96,8 +85,7 @@ a {
     flex-direction: column;
     text-align:justify;
     font-size: 20px;
-    background: rgb(70,0,0);
-    background: linear-gradient(0deg, rgba(70,0,0,1) 25%, rgba(90,0,0,1) 50%, rgba(110,0,0,1) 75%, rgba(130,0,0,1) 100%);
+    background: rgb(130,0,0);
     font-family: "Joan";
     padding: 0px 20px;
 }
@@ -116,25 +104,13 @@ a {
 .start {
     text-align: center;
     padding: 50px;
-    background: rgb(60,0,0);
-    background: linear-gradient(0deg, rgba(60,0,0,1) 20%, rgba(70,0,0,1) 100%);}
-
-.start__button {
-    font-size: 20px;
-    border-radius: 5px;
-    font-family: "Joan";
-    transition: all 0.5s;
-}
-
-.start__button:hover {
-    transform: scale(1.3);
+    background: rgb(130,0,0);
 }
 
 /* HISTORIA */
 
 .story { 
-    background: rgb(70,0,0);
-    background: linear-gradient(0deg, rgba(70,0,0,1) 25%, rgba(90,0,0,1) 50%, rgba(110,0,0,1) 75%, rgba(130,0,0,1) 100%);
+    background: rgb(130,0,0);
 }
 
 .story__title {
@@ -190,8 +166,8 @@ a {
 
 .continueto {
     text-align: center;
-    padding: 30px;
-    background: rgba(70,0,0,1);
+    padding: 50px;
+    background: rgb(130,0,0);
     font-family: "Joan";
     
 }
@@ -212,8 +188,7 @@ a {
 .intro {
     text-align: center;
     font-family: "Joan";
-    background: rgb(70,0,0);
-    background: linear-gradient(0deg, rgba(70,0,0,1) 25%, rgba(90,0,0,1) 50%, rgba(110,0,0,1) 75%, rgba(130,0,0,1) 100%);
+    background: rgb(130,0,0);
 }
 
 .intro__title {
@@ -316,8 +291,7 @@ a {
 }
 
 .enemies {
-    background: rgb(70,0,0);
-    background: linear-gradient(0deg, rgba(70,0,0,1) 25%, rgba(90,0,0,1) 50%, rgba(110,0,0,1) 75%, rgba(130,0,0,1) 100%);
+    background: rgb(130,0,0);
 }
 
 .enemies__titleleft {
@@ -387,8 +361,7 @@ a {
 }
 
 .sinistersix {
-    background: rgb(60,0,0);
-    background: linear-gradient(0deg, rgba(60,0,0,1) 20%, rgba(70,0,0,1) 100%);
+    background: rgb(130,0,0);
 }
 
 .textsinistersix__text {
@@ -415,8 +388,7 @@ a {
 /* PELICULAS */
 
 .movies {
-    background: rgb(70,0,0);
-    background: linear-gradient(0deg, rgba(70,0,0,1) 25%, rgba(90,0,0,1) 50%, rgba(110,0,0,1) 75%, rgba(130,0,0,1) 100%);
+    background: rgb(130,0,0);
 }
 
 .movies__div-title {
@@ -506,12 +478,9 @@ section {
 
 /* INDEX */
 
-.header {
-    flex-direction: column;
-}
-
-.header__options {
-    padding: 20px;
+.navbar-collapse {
+    text-align: center;
+    padding-top: 30px;
 }
 
 .nav__backgroundphoto {

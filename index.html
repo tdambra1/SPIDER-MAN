@@ -29,13 +29,39 @@
       </nav>
     </header>
     <section >
-        <nav class="nav__backgroundphoto"></nav>
+        <!-- <nav class="nav__backgroundphoto"></nav> -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         <div class="text">
         <h3 class="text__one">Spider-Man es uno de los super heroes del genero mas conocidos a nivel mundial, entreteniendo a todo tipo de publico hace ya 60 años. En esta pagina haremos un breve recorrido por su historia, sus distintas versiones alrededor de los años, sus comics mas importantes, las peliculas hechas al dia de hoy e incluso los juegos basados en su historia.</h2>
         <h4 class="text__two">Mi nombre es Tomas, tengo 22 años y soy fanatico de Spider Man desde su primera aparicion en el mundo del cine, pero oficializando ese fanatismo por el mundo de Marvel cuando dio inicio el Universo Cinematografico de Marvel (UCM para entendidos).</h3>
         </div>
         <div class="start"> 
-        <button class="start__button"><a href="pages/historia.html">COMENZAR</a></button>
+        <a class="btn btn-dark btn-lg" href="./pages/historia.html " role="button">COMENZAR</a>
         </div>
 
     </section>
