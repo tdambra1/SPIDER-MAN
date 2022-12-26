@@ -39,7 +39,6 @@
         transform: scale(0);
     }
 
-
     100% {
         transform: scale(1);
     }
@@ -59,7 +58,6 @@ a {
     .btn:hover {
     transform: scale(1.3);
 }
-
 
 .copyright {
     background: rgba(130,0,0,1);
@@ -202,11 +200,10 @@ a {
     color: white;
     padding: 100px;
     padding-bottom: 250px;
-    background-image: url(./images/Wallpaper.jpg);
+    background-image: url(../images/Wallpaper.jpg);
     background-position: center;
     background-size: cover;
 }
-
 
 .multiverse__titleleft {
     padding: 15px;
@@ -275,7 +272,7 @@ a {
 
 /* ENEMIGOS */
 .background {
-    background-image: url(./images/Spider-Man\ Enemies.jpg);
+    background-image: url(../images/Spider-Man\ Enemies.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -442,7 +439,6 @@ section {
 
 
 
-
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 768px) {
@@ -581,3 +577,4 @@ section {
 }
 
 }
+
