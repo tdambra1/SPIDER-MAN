@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Joan';
+    src: url('/fonts/Joan-Regular.ttf');
+    font-style: normal;
+}
+
+/* INDEX */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    font-family: "Joan";
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    backface-visibility: hidden;
+    animation: ease-in animation 2s;
+}
+
+.nav-link  {
+    font-size: 32px;
+    padding: 0px 0px;
+}
+
+.navbar-collapse {
+    flex-grow: initial;
+    backface-visibility: hidden;
+    animation: ease-in animation 2s;
+}
+
+@keyframes animation {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "Joan";
+
+}
+
+.btn {
+    transition: all 0s;
+}
+
+    .btn:hover {
+    transform: scale(1.3);
+}
+
+.copyright {
+    background: rgba(130,0,0,1);
+    font-style: italic;
+    text-align: end;
+    padding-right: 10px;
+    font-family: "Joan";
+}
+
+.continueto {
+    text-align: center;
+    padding: 50px;
+    background: rgb(130,0,0);
+    font-family: "Joan";
+    
+}
+
+.continueto__button {
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: "Joan";
+    transition: all 0.5s;
+}
+
+.continueto__button:hover {
+    transform: scale(1.3);
+}

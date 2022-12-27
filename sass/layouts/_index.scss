@@ -1,0 +1,37 @@
+.nav__backgroundphoto {
+    border: 5px ;
+    padding: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    padding: 600px 100px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    font-size: 20px;
+    background: $RED;
+    font-family: "Joan";
+    padding: 0px 20px;
+}
+
+.text__one {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+
+.text__two {
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+.start {
+    text-align: center;
+    padding: 50px;
+    background: $RED;
+}

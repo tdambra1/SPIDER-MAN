@@ -1,0 +1,115 @@
+.background {
+    background-image: url(../images/Spider-Man\ Enemies.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background__title {
+    padding: 500px 150px;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Joan";
+    color: white;
+    animation: ease-in animation 2s;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0px;
+}
+
+.enemies {
+    background: rgb(130,0,0);
+}
+
+.enemies__titleleft {
+    padding: 15px;
+    font-size: 40px;
+    padding-left: 40px;
+    font-style: bold;
+    font-weight: 350;
+    font-family: "Joan";
+    animation: ease-in animation 2s;
+}
+
+.enemies__titleright {
+    padding: 15px;
+    padding-right: 40px;
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 350;
+    font-family: "Joan";
+    text-align: end;
+    animation: ease-in animation 2s;
+}
+
+.enemies__text {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.enemies__text-img {
+    height: 370px;
+    width: 270px;
+    padding: 40px;
+    transition: all 1s;
+}
+
+.enemies__text-img:hover {
+    transform: scale(1.2);
+}
+
+.enemies__text-p {
+    font-size: 20px;
+    padding: 20px;
+    font-family: "Joan";
+    text-align: center;
+}
+
+.grid {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-template-rows: repeat(1,1fr)  ;
+    justify-items: center;
+    align-items:center ;
+    gap: 10px;
+    
+}
+
+.grid__img {
+    transition: all 1s
+}
+
+.grid__img:hover {
+    transform: scale(1.2);
+}
+
+.sinistersix {
+    background: rgb(130,0,0);
+}
+
+.textsinistersix__text {
+    text-align: center;
+    font-family: "Joan";
+    font-size: 20px;
+    padding: 30px;
+}
+
+.sinistersix__title {
+    text-align: center;
+    font-family: "Joan";
+    font-size: 40px;
+    padding: 30px;
+}
+
+.sinistersix__continueto {
+    text-align: center;
+    padding: 30px;
+    font-family: "Joan";
+    
+}

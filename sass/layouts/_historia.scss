@@ -1,0 +1,54 @@
+.story { 
+    background: rgb(130,0,0);
+}
+
+.story__title {
+    text-align: center;
+    font-family: "Joan";
+    font-size: 40px;
+    padding: 50px;
+    animation: ease-in animation 2s;
+    
+}
+.story__article {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.story__article-img {
+    height: 400px;
+    padding-top:50px ;
+    transition: all 1s;
+}
+
+.story__article-img:hover {
+    transform: scale(1.1);
+}
+.story__article-p {
+    font-size: 20px;
+    padding: 20px;
+    font-family: "Joan";
+    font-style: oblique;
+}
+
+.video__title {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Joan";
+    animation: ease-in animation 2s;
+}
+.video__position{
+    text-align: center;
+    padding: 150px 0px;
+    margin: 0px;
+}
+
+.video__position-vid {
+    transition: all 1s;
+}
+
+.video__position-vid:hover {
+    transform: scale(1.8);
+}
