@@ -1,580 +1,538 @@
 @font-face {
-    font-family: 'Joan';
-    src: url('../fonts/Joan-Regular.ttf');
-    font-style: normal;
+  font-family: "Joan";
+  src: url("../fonts/Joan-Regular.ttf");
+  font-style: normal;
 }
-
 /* INDEX */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar {
-    width: 100%;
-    font-family: "Joan";
-    text-decoration: none;
+  width: 100%;
+  font-family: "Joan";
+  text-decoration: none;
 }
 
 .navbar-brand {
-    font-size: 50px;
-    backface-visibility: hidden;
-    animation: ease-in animation 2s;
+  font-size: 50px;
+  backface-visibility: hidden;
+  animation: ease-in animation 2s;
 }
 
-.nav-link  {
-    font-size: 32px;
-    padding: 0px 0px;
+.nav-link {
+  font-size: 32px;
+  padding: 0px 0px;
 }
 
 .navbar-collapse {
-    flex-grow: initial;
-    backface-visibility: hidden;
-    animation: ease-in animation 2s;
+  flex-grow: initial;
+  backface-visibility: hidden;
+  animation: ease-in animation 2s;
 }
 
 @keyframes animation {
-    0% {
-        transform: scale(0);
-    }
-
-    100% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
-
 a {
-    color: white;
-    text-decoration: none;
-    font-family: "Joan";
-
+  color: white;
+  text-decoration: none;
+  font-family: "Joan";
 }
 
 .btn {
-    transition: all 0s;
+  transition: all 0s;
 }
 
-    .btn:hover {
-    transform: scale(1.3);
+.btn:hover {
+  transform: scale(1.3);
 }
 
 .copyright {
-    background: rgba(130,0,0,1);
-    font-style: italic;
-    text-align: end;
-    padding-right: 10px;
-    font-family: "Joan";
+  background: rgb(130, 0, 0);
+  font-style: italic;
+  text-align: end;
+  padding-right: 10px;
+  font-family: "Joan";
 }
 
 .nav__backgroundphoto {
-    border: 5px ;
-    padding: 10px 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(./images/1.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    padding: 600px 100px;
+  border: 5px;
+  padding: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  padding: 600px 100px;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    text-align:justify;
-    font-size: 20px;
-    background: rgb(130,0,0);
-    font-family: "Joan";
-    padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  font-size: 20px;
+  background: rgb(130, 0, 0);
+  font-family: "Joan";
+  padding: 0px 20px;
 }
 
 .text__one {
-    padding-top: 50px;
-    padding-bottom: 0px;
-    font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  font-size: 20px;
 }
 
 .text__two {
-    font-size: 20px;
-    padding-top: 0px;
+  font-size: 20px;
+  padding-top: 0px;
 }
 
 .start {
-    text-align: center;
-    padding: 50px;
-    background: rgb(130,0,0);
+  text-align: center;
+  padding: 50px;
+  background: rgb(130, 0, 0);
 }
 
 /* HISTORIA */
-
-.story { 
-    background: rgb(130,0,0);
+.story {
+  background: rgb(130, 0, 0);
 }
 
 .story__title {
-    text-align: center;
-    font-family: "Joan";
-    font-size: 40px;
-    padding: 50px;
-    animation: ease-in animation 2s;
-    
+  text-align: center;
+  font-family: "Joan";
+  font-size: 40px;
+  padding: 50px;
+  animation: ease-in animation 2s;
 }
+
 .story__article {
-    padding: 15px;
-    display: flex;
-    align-items: center;
+  padding: 15px;
+  display: flex;
+  align-items: center;
 }
 
 .story__article-img {
-    height: 400px;
-    padding-top:50px ;
-    transition: all 1s;
+  height: 400px;
+  padding-top: 50px;
+  transition: all 1s;
 }
 
 .story__article-img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
+
 .story__article-p {
-    font-size: 20px;
-    padding: 20px;
-    font-family: "Joan";
-    font-style: oblique;
+  font-size: 20px;
+  padding: 20px;
+  font-family: "Joan";
+  font-style: oblique;
 }
 
 .video__title {
-    font-size: 35px;
-    text-align: center;
-    padding-top: 100px;
-    font-family: "Joan";
-    animation: ease-in animation 2s;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Joan";
+  animation: ease-in animation 2s;
 }
-.video__position{
-    text-align: center;
-    padding: 150px 0px;
-    margin: 0px;
+
+.video__position {
+  text-align: center;
+  padding: 150px 0px;
+  margin: 0px;
 }
 
 .video__position-vid {
-    transition: all 1s;
+  transition: all 1s;
 }
 
 .video__position-vid:hover {
-    transform: scale(1.8);
+  transform: scale(1.8);
 }
 
 .continueto {
-    text-align: center;
-    padding: 50px;
-    background: rgb(130,0,0);
-    font-family: "Joan";
-    
+  text-align: center;
+  padding: 50px;
+  background: rgb(130, 0, 0);
+  font-family: "Joan";
 }
 
 .continueto__button {
-    font-size: 20px;
-    border-radius: 5px;
-    font-family: "Joan";
-    transition: all 0.5s;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: "Joan";
+  transition: all 0.5s;
 }
 
 .continueto__button:hover {
-    transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 /* SPIDER-VERSE */
-
 .intro {
-    text-align: center;
-    font-family: "Joan";
-    background: rgb(130,0,0);
+  text-align: center;
+  font-family: "Joan";
+  background: rgb(130, 0, 0);
 }
 
 .intro__title {
-    font-size: 30px;
-    animation: ease-in animation 2s;
-    backface-visibility: hidden;
+  font-size: 30px;
+  animation: ease-in animation 2s;
+  backface-visibility: hidden;
 }
 
 .intro__p {
-    font-size: 20px;
-    color: white;
-    padding: 100px;
-    padding-bottom: 250px;
-    background-image: url(../images/Wallpaper.jpg);
-    background-position: center;
-    background-size: cover;
+  font-size: 20px;
+  color: white;
+  padding: 100px;
+  padding-bottom: 250px;
+  background-image: url(../images/Wallpaper.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .multiverse__titleleft {
-    padding: 15px;
-    font-size: 40px;
-    font-style: bold;
-    font-weight: 350;
-    font-family: "Joan";
-    animation: ease-in animation 2s;
-    text-align: start;
+  padding: 15px;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 350;
+  font-family: "Joan";
+  animation: ease-in animation 2s;
+  text-align: start;
 }
 
 .multiverse__titleright {
-    padding: 15px;
-    font-size: 40px;
-    font-style: bold;
-    font-weight: 350;
-    font-family: "Joan";
-    text-align: end;
-    animation: ease-in animation 2s;
+  padding: 15px;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 350;
+  font-family: "Joan";
+  text-align: end;
+  animation: ease-in animation 2s;
 }
 
 .multiverse__text {
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .multiverse__text-img {
-    height: 370px;
-    width: 270px;
-    padding-top: 20px;
-    padding: 50px;
-    transition: all 1s;
+  height: 370px;
+  width: 270px;
+  padding-top: 20px;
+  padding: 50px;
+  transition: all 1s;
 }
 
 .multiverse__text-img:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .multiverse__text-p {
-    font-size: 20px;
-    padding: 20px;
-    font-family: "Joan";
+  font-size: 20px;
+  padding: 20px;
+  font-family: "Joan";
 }
+
 .multiverse__videotitle {
-    text-align: center;
-    font-size: 30px;
-    font-family: "Joan";
-    padding-top: 30px;
-    padding-bottom: 40px;
-    animation: ease-in animation 2s;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Joan";
+  padding-top: 30px;
+  padding-bottom: 40px;
+  animation: ease-in animation 2s;
 }
+
 .multiverse__video {
-    text-align: center;
-    padding-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 .multiverse__video-vid {
-    transition: all 1s;
+  transition: all 1s;
 }
 
 .multiverse__video-vid:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 /* ENEMIGOS */
 .background {
-    background-image: url(../images/Spider-Man\ Enemies.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: url(../images/Spider-Man\ Enemies.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .background__title {
-    padding: 500px 150px;
-    text-align: center;
-    font-size: 100px;
-    font-family: "Joan";
-    color: white;
-    animation: ease-in animation 2s;
+  padding: 500px 150px;
+  text-align: center;
+  font-size: 100px;
+  font-family: "Joan";
+  color: white;
+  animation: ease-in animation 2s;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .enemies {
-    background: rgb(130,0,0);
+  background: rgb(130, 0, 0);
 }
 
 .enemies__titleleft {
-    padding: 15px;
-    font-size: 40px;
-    padding-left: 40px;
-    font-style: bold;
-    font-weight: 350;
-    font-family: "Joan";
-    animation: ease-in animation 2s;
+  padding: 15px;
+  font-size: 40px;
+  padding-left: 40px;
+  font-style: bold;
+  font-weight: 350;
+  font-family: "Joan";
+  animation: ease-in animation 2s;
 }
 
 .enemies__titleright {
-    padding: 15px;
-    padding-right: 40px;
-    font-size: 40px;
-    font-style: bold;
-    font-weight: 350;
-    font-family: "Joan";
-    text-align: end;
-    animation: ease-in animation 2s;
+  padding: 15px;
+  padding-right: 40px;
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 350;
+  font-family: "Joan";
+  text-align: end;
+  animation: ease-in animation 2s;
 }
 
 .enemies__text {
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .enemies__text-img {
-    height: 370px;
-    width: 270px;
-    padding: 40px;
-    transition: all 1s;
+  height: 370px;
+  width: 270px;
+  padding: 40px;
+  transition: all 1s;
 }
 
 .enemies__text-img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .enemies__text-p {
-    font-size: 20px;
-    padding: 20px;
-    font-family: "Joan";
-    text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  font-family: "Joan";
+  text-align: center;
 }
 
 .grid {
-    padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr) ;
-    grid-template-rows: repeat(1,1fr)  ;
-    justify-items: center;
-    align-items:center ;
-    gap: 10px;
-    
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .grid__img {
-    transition: all 1s
+  transition: all 1s;
 }
 
 .grid__img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .sinistersix {
-    background: rgb(130,0,0);
+  background: rgb(130, 0, 0);
 }
 
 .textsinistersix__text {
-    text-align: center;
-    font-family: "Joan";
-    font-size: 20px;
-    padding: 30px;
+  text-align: center;
+  font-family: "Joan";
+  font-size: 20px;
+  padding: 30px;
 }
 
 .sinistersix__title {
-    text-align: center;
-    font-family: "Joan";
-    font-size: 40px;
-    padding: 30px;
+  text-align: center;
+  font-family: "Joan";
+  font-size: 40px;
+  padding: 30px;
 }
 
 .sinistersix__continueto {
-    text-align: center;
-    padding: 30px;
-    font-family: "Joan";
-    
+  text-align: center;
+  padding: 30px;
+  font-family: "Joan";
 }
 
 /* PELICULAS */
-
 .movies {
-    background: rgb(130,0,0);
+  background: rgb(130, 0, 0);
 }
 
 .movies__div-title {
-    text-align: center;
-    font-size: 30px;
-    animation: ease-in animation 2s;
-    padding-top: 30px;
-
+  text-align: center;
+  font-size: 30px;
+  animation: ease-in animation 2s;
+  padding-top: 30px;
 }
 
 .movies__text {
-    text-align: center;
-    padding: 30px;
+  text-align: center;
+  padding: 30px;
 }
 
 section {
-    font-family: "Joan";
+  font-family: "Joan";
 }
 
 .movies__raimiwebbmcu {
-    text-align: center;
+  text-align: center;
 }
 
 .movies__raimiwebbmcu-title {
-    font-size: 30px;
-    padding: 30px;
-    padding-top: 80px;
-    animation: ease-in animation 2s;
+  font-size: 30px;
+  padding: 30px;
+  padding-top: 80px;
+  animation: ease-in animation 2s;
 }
 
 .movies__raimiwebbmcu-text {
-    font-size: 20px;
-    padding: 30px;
-    font-family: "Joan";
+  font-size: 20px;
+  padding: 30px;
+  font-family: "Joan";
 }
 
 .movies__raimiwebbmcu-img-x {
-    transition: all 1s;
-    padding-top: 20px;
-    padding-bottom: 30px;
+  transition: all 1s;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .movies__raimiwebbmcu-img-x:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
-
-
 
 /* MEDIA QUERIES */
-
 @media only screen and (max-width: 768px) {
-    
-    /* INDEX */
-    
-    .header {
-        flex-direction: column;
-    }
-    
-    .header__options {
-        padding: 20px;
-    }
-    
-    .nav__backgroundphoto {
-        padding: 400px 100px;
-        background-attachment: local;
-    }
-    
-    .text__one {
-        text-align: center;   
-        font-size: 19px;
-       }
-    
-    .text__two {
-        text-align: center;   
-        font-size: 19px;
-       }
-    
-    .copyright {
-        font-size: 11px;
-    }
-    
-    /* RESTA FINALIZAR */
-    }
-
+  /* INDEX */
+  .header {
+    flex-direction: column;
+  }
+  .header__options {
+    padding: 20px;
+  }
+  .nav__backgroundphoto {
+    padding: 400px 100px;
+    background-attachment: local;
+  }
+  .text__one {
+    text-align: center;
+    font-size: 19px;
+  }
+  .text__two {
+    text-align: center;
+    font-size: 19px;
+  }
+  .copyright {
+    font-size: 11px;
+  }
+  /* RESTA FINALIZAR */
+}
 @media only screen and (max-width: 576px) {
-
-/* INDEX */
-
-.navbar-collapse {
+  /* INDEX */
+  .navbar-collapse {
     text-align: center;
     padding-top: 30px;
-}
-
-.nav__backgroundphoto {
+  }
+  .nav__backgroundphoto {
     background-attachment: local;
     background-position: end;
-}
-.text__one {
- text-align: center;   
- font-size: 17px;
-}
-
-.text__two {
+  }
+  .text__one {
     text-align: center;
     font-size: 17px;
-}
-
-.copyright {
+  }
+  .text__two {
+    text-align: center;
+    font-size: 17px;
+  }
+  .copyright {
     font-size: 8px;
-}
-
-/* HISTORIA */
-.story__article {
+  }
+  /* HISTORIA */
+  .story__article {
     flex-direction: column;
-}
-
-/* SPIDER-VERSE */
-
-.multiverse__titleleft {
+  }
+  /* SPIDER-VERSE */
+  .multiverse__titleleft {
     font-size: 30px;
-}
-
-.multiverse__titleright {
+  }
+  .multiverse__titleright {
     font-size: 30px;
-}
-
-.multiverse__text-p {
+  }
+  .multiverse__text-p {
     font-size: 12px;
-}
-
-/* ENEMIGOS */
-.background {
+  }
+  /* ENEMIGOS */
+  .background {
     padding: 200px 10px;
     background-attachment: fixed;
     font-size: 60px;
-}
-
-.background__title {
+  }
+  .background__title {
     padding: 200px 0px;
     font-size: 50px;
-}
-
-.enemies__titleleft {
+  }
+  .enemies__titleleft {
     font-size: 30px;
-}
-
-.enemies__titleright {
+  }
+  .enemies__titleright {
     font-size: 30px;
-}
-
-.enemies__text-p {
+  }
+  .enemies__text-p {
     font-size: 12px;
-}
-
-.textsinistersix {
+  }
+  .textsinistersix {
     font-size: 14px;
-}
-
-.grid {
-    grid-template-columns: repeat(1,1fr) ;
-    grid-template-rows: repeat(4,1fr)  ;
-}
-
-.grid__img {
+  }
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .grid__img {
     width: 450px;
     height: 300px;
     padding: 0;
-}
-
-/* PELICULAS */
-
-.movies {
+  }
+  /* PELICULAS */
+  .movies {
     padding-top: 40px;
     font-size: 27px;
-}
-
-.movies__text {
+  }
+  .movies__text {
     font-size: 22px;
-}
-
-.movies__raimiwebbmcu-img-x {
+  }
+  .movies__raimiwebbmcu-img-x {
     height: 350px;
     width: 500px;
+  }
 }
 
-}
-
+/*# sourceMappingURL=style.css.map */
