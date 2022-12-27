@@ -1,0 +1,24 @@
+.navbar {
+    width: 100%;
+    font-family: $FONT;
+    text-decoration: none;
+
+        &-brand {
+            font-size: $SIZE1;
+            backface-visibility: hidden;
+            animation: ease-in animation 2s;
+        }
+
+        &-collapse {
+            flex-grow: initial;
+            backface-visibility: hidden;
+            animation: ease-in animation 2s;
+        }
+
+        &-nav-link {
+            font-size: 32px;
+            padding: 0px 0px;
+        }
+
+}
+

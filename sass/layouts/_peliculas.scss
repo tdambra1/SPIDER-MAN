@@ -1,47 +1,50 @@
 .movies {
-    background: rgb(130,0,0);
-}
+    background: $RED;
 
-.movies__div-title {
-    text-align: center;
-    font-size: 30px;
-    animation: ease-in animation 2s;
-    padding-top: 30px;
+    &__title {
+        text-align: center;
+        font-size: 30px;
+        animation: ease-in animation 2s;
+        padding-top: 30px;
+    }
 
-}
-
-.movies__text {
-    text-align: center;
-    padding: 30px;
+    &__text {
+        text-align: center;
+        padding: 30px;
+    }
 }
 
 section {
     font-family: "Joan";
 }
 
-.movies__raimiwebbmcu {
-    text-align: center;
+.movies {
+
+    &__raimiwebbmcu {
+        text-align: center;
+
+        &-title {
+            font-size: 30px;
+            padding: 30px;
+            padding-top: 80px;
+            animation: ease-in animation 2s;
+            }
+
+        &-text {
+            font-size: 20px;
+            padding: 30px;
+            font-family: "Joan";
+        }
+
+        &-img-x {
+            transition: all 1s;
+            padding-top: 20px;
+            padding-bottom: 30px;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
 }
 
-.movies__raimiwebbmcu-title {
-    font-size: 30px;
-    padding: 30px;
-    padding-top: 80px;
-    animation: ease-in animation 2s;
-}
-
-.movies__raimiwebbmcu-text {
-    font-size: 20px;
-    padding: 30px;
-    font-family: "Joan";
-}
-
-.movies__raimiwebbmcu-img-x {
-    transition: all 1s;
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-
-.movies__raimiwebbmcu-img-x:hover {
-    transform: scale(1.1);
-}

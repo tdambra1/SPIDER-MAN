@@ -1,54 +1,61 @@
 .story { 
-    background: rgb(130,0,0);
+    background: $RED;
+
+    &__title {
+        text-align: center;
+        font-family: $FONT;
+        font-size: $SIZE2;
+        padding: $SIZE1;
+        animation: ease-in animation 2s;
+        
+    }
+
+    &__article {
+        padding: 15px;
+        display: flex;
+        align-items: center;    
+
+        &-img {
+            height: 400px;
+            padding-top:$SIZE1 ;
+            transition: all 1s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        &-p {
+            font-size: 20px;
+            padding: 20px;
+            font-family: $FONT;
+            font-style: oblique;
+        }
+    }
 }
 
-.story__title {
-    text-align: center;
-    font-family: "Joan";
-    font-size: 40px;
-    padding: 50px;
-    animation: ease-in animation 2s;
-    
-}
-.story__article {
-    padding: 15px;
-    display: flex;
-    align-items: center;
+.video {
+
+    &__title {
+        font-size: 35px;
+        text-align: center;
+        padding-top: 100px;
+        font-family: $FONT;
+        animation: ease-in animation 2s;
+    }
+
+    &__position {
+        text-align: center;
+        padding: 150px 0px;
+        margin: 0px;
+
+        &-vid {
+            transition: all 1s;
+
+            &:hover {
+                transform: scale(1.8);
+            }
+        }
+    }
 }
 
-.story__article-img {
-    height: 400px;
-    padding-top:50px ;
-    transition: all 1s;
-}
-
-.story__article-img:hover {
-    transform: scale(1.1);
-}
-.story__article-p {
-    font-size: 20px;
-    padding: 20px;
-    font-family: "Joan";
-    font-style: oblique;
-}
-
-.video__title {
-    font-size: 35px;
-    text-align: center;
-    padding-top: 100px;
-    font-family: "Joan";
-    animation: ease-in animation 2s;
-}
-.video__position{
-    text-align: center;
-    padding: 150px 0px;
-    margin: 0px;
-}
-
-.video__position-vid {
-    transition: all 1s;
-}
-
-.video__position-vid:hover {
-    transform: scale(1.8);
-}

@@ -1,86 +1,93 @@
 .intro {
     text-align: center;
     font-family: "Joan";
-    background: rgb(130,0,0);
+    background: $RED;
+
+    &__title {
+        font-size: 30px;
+        animation: ease-in animation 2s;
+        backface-visibility: hidden;
+    }
+
+    &__p {
+        font-size: 20px;
+        color: white;
+        padding: 100px;
+        padding-bottom: 250px;
+        background-image: url(../images/Wallpaper.jpg);
+        background-position: center;
+        background-size: cover;
+    }
 }
 
-.intro__title {
-    font-size: 30px;
-    animation: ease-in animation 2s;
-    backface-visibility: hidden;
+.multiverse {
+
+    &__titleleft {
+        padding: 15px;
+        font-size: $SIZE2;
+        font-style: bold;
+        font-weight: 350;
+        font-family: "Joan";
+        animation: ease-in animation 2s;
+        text-align: start;
+    }
+
+    &__titleright {
+        padding: 15px;
+        font-size: $SIZE2;
+        font-style: bold;
+        font-weight: 350;
+        font-family: "Joan";
+        text-align: end;
+        animation: ease-in animation 2s;
+    }
+
+    &__text {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        &-img {
+            height: 370px;
+            width: 270px;
+            padding-top: 20px;
+            padding: 50px;
+            transition: all 1s;
+
+            &:hover {
+                transform: scale(1.5);
+            }
+        }
+
+        &-p {
+            font-size: 20px;
+            padding: 20px;
+            font-family: "Joan";
+        }
+    
+    }
+
+    &__videotitle {
+        text-align: center;
+        font-size: 30px;
+        font-family: "Joan";
+        padding-top: 30px;
+        padding-bottom: $SIZE2;
+        animation: ease-in animation 2s;
+    }
+
+    &__video {
+        text-align: center;
+        padding-bottom: 10px;
+
+        &-vid {
+            transition: all 1s;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
 }
 
-.intro__p {
-    font-size: 20px;
-    color: white;
-    padding: 100px;
-    padding-bottom: 250px;
-    background-image: url(../images/Wallpaper.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.multiverse__titleleft {
-    padding: 15px;
-    font-size: 40px;
-    font-style: bold;
-    font-weight: 350;
-    font-family: "Joan";
-    animation: ease-in animation 2s;
-    text-align: start;
-}
-
-.multiverse__titleright {
-    padding: 15px;
-    font-size: 40px;
-    font-style: bold;
-    font-weight: 350;
-    font-family: "Joan";
-    text-align: end;
-    animation: ease-in animation 2s;
-}
-
-.multiverse__text {
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.multiverse__text-img {
-    height: 370px;
-    width: 270px;
-    padding-top: 20px;
-    padding: 50px;
-    transition: all 1s;
-}
-
-.multiverse__text-img:hover {
-    transform: scale(1.5);
-}
-
-.multiverse__text-p {
-    font-size: 20px;
-    padding: 20px;
-    font-family: "Joan";
-}
-.multiverse__videotitle {
-    text-align: center;
-    font-size: 30px;
-    font-family: "Joan";
-    padding-top: 30px;
-    padding-bottom: 40px;
-    animation: ease-in animation 2s;
-}
-.multiverse__video {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.multiverse__video-vid {
-    transition: all 1s;
-}
-
-.multiverse__video-vid:hover {
-    transform: scale(1.2);
-}

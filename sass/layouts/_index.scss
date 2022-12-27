@@ -15,23 +15,24 @@
     text-align:justify;
     font-size: 20px;
     background: $RED;
-    font-family: "Joan";
+    font-family: $FONT;
     padding: 0px 20px;
+
+    &__one {
+        padding-top: $SIZE1;
+        padding-bottom: 0px;
+        font-size: 20px;
+    }
+
+    &__two {
+        font-size: 20px;
+        padding-top: 0px;
+    }
 }
 
-.text__one {
-    padding-top: 50px;
-    padding-bottom: 0px;
-    font-size: 20px;
-}
-
-.text__two {
-    font-size: 20px;
-    padding-top: 0px;
-}
 
 .start {
     text-align: center;
-    padding: 50px;
+    padding: $SIZE1;
     background: $RED;
 }

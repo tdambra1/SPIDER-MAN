@@ -11,28 +11,6 @@
     box-sizing: border-box;
 }
 
-.navbar {
-    width: 100%;
-    font-family: "Joan";
-    text-decoration: none;
-}
-
-.navbar-brand {
-    font-size: 50px;
-    backface-visibility: hidden;
-    animation: ease-in animation 2s;
-}
-
-.nav-link  {
-    font-size: 32px;
-    padding: 0px 0px;
-}
-
-.navbar-collapse {
-    flex-grow: initial;
-    backface-visibility: hidden;
-    animation: ease-in animation 2s;
-}
 
 @keyframes animation {
     0% {
@@ -47,41 +25,34 @@
 a {
     color: white;
     text-decoration: none;
-    font-family: "Joan";
+    font-family: $FONT;
 
 }
 
 .btn {
     transition: all 0s;
-}
 
-    .btn:hover {
-    transform: scale(1.3);
-}
+    &:hover {
+        transform: scale(1.3);
+    }
 
-.copyright {
-    background: rgba(130,0,0,1);
-    font-style: italic;
-    text-align: end;
-    padding-right: 10px;
-    font-family: "Joan";
 }
 
 .continueto {
     text-align: center;
-    padding: 50px;
-    background: rgb(130,0,0);
-    font-family: "Joan";
+    padding: $SIZE1;
+    background: $RED;
+    font-family: $FONT;
     
+    &__button {
+        font-size: 20px;
+        border-radius: 5px;
+        font-family: $FONT;
+        transition: all 0.5s;
+
+        &:hover {
+            transform: scale(1.3);
+        }
+    }
 }
 
-.continueto__button {
-    font-size: 20px;
-    border-radius: 5px;
-    font-family: "Joan";
-    transition: all 0.5s;
-}
-
-.continueto__button:hover {
-    transform: scale(1.3);
-}

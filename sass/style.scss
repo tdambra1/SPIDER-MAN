@@ -1,5 +1,7 @@
 @import "./global/variables";
 @import "global/general";
+@import "./global/navbar";
+@import "./global/footer";
 @import "layouts/index";
 @import "layouts/historia";
 @import "layouts/multiversospiderman";
@@ -98,7 +100,7 @@
 
 .background__title {
     padding: 200px 0px;
-    font-size: 50px;
+    font-size: $SIZE1;
 }
 
 .enemies__titleleft {
@@ -131,7 +133,7 @@
 /* PELICULAS */
 
 .movies {
-    padding-top: 40px;
+    padding-top: $SIZE2;
     font-size: 27px;
 }
 
