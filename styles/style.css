@@ -3,7 +3,6 @@
   src: url("/fonts/Joan-Regular.ttf");
   font-style: normal;
 }
-/* INDEX */
 * {
   margin: 0;
   padding: 0;
@@ -47,6 +46,10 @@ a {
   transform: scale(1.3);
 }
 
+.animation, .movies__raimiwebbmcu-title, .movies__title, .enemies__titleright, .enemies__titleleft, .background__title, .multiverse__videotitle, .multiverse__titleright, .multiverse__titleleft, .intro__title, .video__title, .story__title, .navbar-collapse, .navbar-brand {
+  animation: ease-in animation 2s;
+}
+
 .navbar {
   width: 100%;
   font-family: "Joan";
@@ -55,15 +58,14 @@ a {
 .navbar-brand {
   font-size: 50px;
   backface-visibility: hidden;
-  animation: ease-in animation 2s;
 }
 .navbar-collapse {
   flex-grow: initial;
   backface-visibility: hidden;
-  animation: ease-in animation 2s;
 }
-.navbar-nav-link {
-  font-size: 32px;
+
+.nav-link {
+  font-size: 30px;
   padding: 0px 0px;
 }
 
@@ -119,7 +121,6 @@ a {
   font-family: "Joan";
   font-size: 40px;
   padding: 50px;
-  animation: ease-in animation 2s;
 }
 .story__article {
   padding: 15px;
@@ -146,7 +147,6 @@ a {
   text-align: center;
   padding-top: 100px;
   font-family: "Joan";
-  animation: ease-in animation 2s;
 }
 .video__position {
   text-align: center;
@@ -167,7 +167,6 @@ a {
 }
 .intro__title {
   font-size: 30px;
-  animation: ease-in animation 2s;
   backface-visibility: hidden;
 }
 .intro__p {
@@ -186,7 +185,6 @@ a {
   font-style: bold;
   font-weight: 350;
   font-family: "Joan";
-  animation: ease-in animation 2s;
   text-align: start;
 }
 .multiverse__titleright {
@@ -196,7 +194,6 @@ a {
   font-weight: 350;
   font-family: "Joan";
   text-align: end;
-  animation: ease-in animation 2s;
 }
 .multiverse__text {
   padding: 15px;
@@ -225,7 +222,6 @@ a {
   font-family: "Joan";
   padding-top: 30px;
   padding-bottom: 40px;
-  animation: ease-in animation 2s;
 }
 .multiverse__video {
   text-align: center;
@@ -251,7 +247,6 @@ a {
   font-size: 100px;
   font-family: "Joan";
   color: white;
-  animation: ease-in animation 2s;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -268,7 +263,6 @@ a {
   font-style: bold;
   font-weight: 350;
   font-family: "Joan";
-  animation: ease-in animation 2s;
 }
 .enemies__titleright {
   padding: 15px;
@@ -278,7 +272,6 @@ a {
   font-weight: 350;
   font-family: "Joan";
   text-align: end;
-  animation: ease-in animation 2s;
 }
 .enemies__text {
   padding: 15px;
@@ -345,7 +338,6 @@ a {
 .movies__title {
   text-align: center;
   font-size: 30px;
-  animation: ease-in animation 2s;
   padding-top: 30px;
 }
 .movies__text {
@@ -364,7 +356,6 @@ section {
   font-size: 30px;
   padding: 30px;
   padding-top: 80px;
-  animation: ease-in animation 2s;
 }
 .movies__raimiwebbmcu-text {
   font-size: 20px;
@@ -386,12 +377,11 @@ section {
   .header {
     flex-direction: column;
   }
-  .header__options {
+  .header__option {
     padding: 20px;
   }
-  .nav__backgroundphoto {
-    padding: 400px 100px;
-    background-attachment: local;
+  .text {
+    height: 288px;
   }
   .text__one {
     text-align: center;
@@ -411,10 +401,6 @@ section {
   .navbar-collapse {
     text-align: center;
     padding-top: 30px;
-  }
-  .nav__backgroundphoto {
-    background-attachment: local;
-    background-position: end;
   }
   .text__one {
     text-align: center;
@@ -444,7 +430,7 @@ section {
   /* ENEMIGOS */
   .background {
     padding: 200px 10px;
-    background-attachment: fixed;
+    background-attachment: local;
     font-size: 60px;
   }
   .background__title {
@@ -463,14 +449,9 @@ section {
   .textsinistersix {
     font-size: 14px;
   }
-  .grid {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
-  .grid__img {
-    width: 450px;
-    height: 300px;
-    padding: 0;
+  .grid .grid__img {
+    width: 230px;
+    height: 200px;
   }
   /* PELICULAS */
   .movies {

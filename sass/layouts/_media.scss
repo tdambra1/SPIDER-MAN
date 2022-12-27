@@ -1,0 +1,141 @@
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: $bpTablet) {
+    
+    /* INDEX */
+    
+    .header {
+        flex-direction: column;
+
+        &__option {
+            padding: $SIZE4;
+        }
+    }
+
+     .text {
+        height: 288px;
+
+        &__one {
+            text-align: center;   
+            font-size: 19px;
+        }
+
+        &__two {
+            text-align: center;   
+            font-size: 19px;
+        }
+    }
+    
+    
+    .copyright {
+        font-size: 11px;
+    }
+    
+    /* RESTA FINALIZAR */
+    }
+
+@media only screen and (max-width: $bMmobile) {
+
+/* INDEX */
+
+.navbar-collapse {
+    text-align: center;
+    padding-top: $SIZE3;
+}
+
+.text {
+
+    &__one {
+        text-align: center;   
+        font-size: 17px;
+    }
+
+    &__two {
+        text-align: center;
+        font-size: 17px;
+    }
+}
+
+.copyright {
+    font-size: 8px;
+}
+
+/* HISTORIA */
+.story__article {
+    flex-direction: column;
+}
+
+/* SPIDER-VERSE */
+
+.multiverse {
+
+    &__titleleft {
+        font-size: $SIZE3;
+    }
+
+    &__titleright {
+        font-size: $SIZE3;
+    }
+
+    &__text-p {
+        font-size: 12px;
+    }
+}
+
+/* ENEMIGOS */
+.background {
+    padding: 200px 10px;
+    background-attachment: local;
+    font-size: 60px;
+
+    &__title {
+        padding: 200px 0px;
+        font-size: $SIZE1; 
+    }
+}
+
+.enemies {
+
+    &__titleleft {
+        font-size: $SIZE3;
+    }
+
+    &__titleright {
+        font-size: $SIZE3;
+    }
+
+    &__text-p {
+        font-size: 12px;
+    }
+}
+
+.textsinistersix {
+    font-size: 14px;
+}
+
+.grid {
+    .grid__img {
+        width: 230px;
+        height: 200px;
+
+    }
+}
+
+
+/* PELICULAS */
+
+.movies {
+    padding-top: $SIZE2;
+    font-size: 27px;
+
+    &__text {
+        font-size: 22px;
+    }
+
+    &__raimiwebbmcu-img-x {
+        height: 350px;
+        width: 500px;
+    }
+}
+
+}

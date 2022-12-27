@@ -6,12 +6,12 @@
         font-family: $FONT;
         font-size: $SIZE2;
         padding: $SIZE1;
-        animation: ease-in animation 2s;
+        @extend .animation;
         
     }
 
     &__article {
-        padding: 15px;
+        padding: $SIZE5;
         display: flex;
         align-items: center;    
 
@@ -26,8 +26,8 @@
         }
 
         &-p {
-            font-size: 20px;
-            padding: 20px;
+            font-size: $SIZE4;
+            padding: $SIZE4;
             font-family: $FONT;
             font-style: oblique;
         }
@@ -41,7 +41,7 @@
         text-align: center;
         padding-top: 100px;
         font-family: $FONT;
-        animation: ease-in animation 2s;
+        @extend .animation;
     }
 
     &__position {

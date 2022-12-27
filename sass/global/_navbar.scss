@@ -6,19 +6,20 @@
         &-brand {
             font-size: $SIZE1;
             backface-visibility: hidden;
-            animation: ease-in animation 2s;
+            @extend .animation;
         }
 
         &-collapse {
             flex-grow: initial;
             backface-visibility: hidden;
-            animation: ease-in animation 2s;
-        }
-
-        &-nav-link {
-            font-size: 32px;
-            padding: 0px 0px;
+            @extend .animation;
         }
 
 }
+
+.nav-link {
+    font-size: $SIZE3;
+    padding: 0px 0px;
+}
+
 

@@ -4,12 +4,12 @@
     font-style: normal;
 }
 
-/* INDEX */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 
 @keyframes animation {
@@ -45,7 +45,7 @@ a {
     font-family: $FONT;
     
     &__button {
-        font-size: 20px;
+        font-size: $SIZE4;
         border-radius: 5px;
         font-family: $FONT;
         transition: all 0.5s;
@@ -56,3 +56,6 @@ a {
     }
 }
 
+.animation {
+    animation: ease-in animation 2s
+}

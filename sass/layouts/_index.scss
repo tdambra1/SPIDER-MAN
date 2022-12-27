@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     text-align:justify;
-    font-size: 20px;
+    font-size: $SIZE4;
     background: $RED;
     font-family: $FONT;
     padding: 0px 20px;
@@ -21,11 +21,11 @@
     &__one {
         padding-top: $SIZE1;
         padding-bottom: 0px;
-        font-size: 20px;
+        font-size: $SIZE4;
     }
 
     &__two {
-        font-size: 20px;
+        font-size: $SIZE4;
         padding-top: 0px;
     }
 }
@@ -36,3 +36,5 @@
     padding: $SIZE1;
     background: $RED;
 }
+
+

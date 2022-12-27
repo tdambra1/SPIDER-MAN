@@ -11,7 +11,7 @@
         font-size: 100px;
         font-family: $FONT;
         color: white;
-        animation: ease-in animation 2s;
+        @extend .animation;
     }
 }
 
@@ -24,28 +24,28 @@
     background: $RED;
 
     &__titleleft {
-        padding: 15px;
+        padding: $SIZE5;
         font-size: $SIZE2;
         padding-left: $SIZE2;
         font-style: bold;
         font-weight: 350;
         font-family: $FONT;
-        animation: ease-in animation 2s;
+        @extend .animation;
     }
 
     &__titleright {
-        padding: 15px;
+        padding: $SIZE5;
         padding-right: $SIZE2;
         font-size: $SIZE2;
         font-style: bold;
         font-weight: 350;
         font-family: $FONT;
         text-align: end;
-        animation: ease-in animation 2s;
+        @extend .animation;
     }
 
     &__text {
-        padding: 15px;
+        padding: $SIZE5;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -62,8 +62,8 @@
         }
 
         &-p{
-            font-size: 20px;
-            padding: 20px;
+            font-size: $SIZE4;
+            padding: $SIZE4;
             font-family: $FONT;
             text-align: center;
         }
@@ -95,20 +95,20 @@
     &__text {
         text-align: center;
         font-family: $FONT;
-        font-size: 20px;
-        padding: 30px;
+        font-size: $SIZE4;
+        padding: $SIZE3;
     }
 
     &__title {
         text-align: center;
         font-family: $FONT;
         font-size: $SIZE2;
-        padding: 30px;
+        padding: $SIZE3;
     }
 
     &__continueto {
         text-align: center;
-        padding: 30px;
+        padding: $SIZE3;
         font-family: $FONT;
     }
 }

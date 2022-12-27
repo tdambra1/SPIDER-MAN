@@ -4,13 +4,13 @@
     background: $RED;
 
     &__title {
-        font-size: 30px;
-        animation: ease-in animation 2s;
+        font-size: $SIZE3;
+        @extend .animation;
         backface-visibility: hidden;
     }
 
     &__p {
-        font-size: 20px;
+        font-size: $SIZE4;
         color: white;
         padding: 100px;
         padding-bottom: 250px;
@@ -23,27 +23,27 @@
 .multiverse {
 
     &__titleleft {
-        padding: 15px;
+        padding: $SIZE5;
         font-size: $SIZE2;
         font-style: bold;
         font-weight: 350;
         font-family: "Joan";
-        animation: ease-in animation 2s;
+        @extend .animation;
         text-align: start;
     }
 
     &__titleright {
-        padding: 15px;
+        padding: $SIZE5;
         font-size: $SIZE2;
         font-style: bold;
         font-weight: 350;
         font-family: "Joan";
         text-align: end;
-        animation: ease-in animation 2s;
+        @extend .animation;
     }
 
     &__text {
-        padding: 15px;
+        padding: $SIZE5;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -51,8 +51,8 @@
         &-img {
             height: 370px;
             width: 270px;
-            padding-top: 20px;
-            padding: 50px;
+            padding-top: $SIZE4;
+            padding: $SIZE1;
             transition: all 1s;
 
             &:hover {
@@ -61,8 +61,8 @@
         }
 
         &-p {
-            font-size: 20px;
-            padding: 20px;
+            font-size: $SIZE4;
+            padding: $SIZE4;
             font-family: "Joan";
         }
     
@@ -70,11 +70,11 @@
 
     &__videotitle {
         text-align: center;
-        font-size: 30px;
+        font-size: $SIZE3;
         font-family: "Joan";
-        padding-top: 30px;
+        padding-top: $SIZE3;
         padding-bottom: $SIZE2;
-        animation: ease-in animation 2s;
+        @extend .animation;
     }
 
     &__video {

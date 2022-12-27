@@ -3,14 +3,14 @@
 
     &__title {
         text-align: center;
-        font-size: 30px;
-        animation: ease-in animation 2s;
-        padding-top: 30px;
+        font-size: $SIZE3;
+        @extend .animation;
+        padding-top: $SIZE3;
     }
 
     &__text {
         text-align: center;
-        padding: 30px;
+        padding: $SIZE3;
     }
 }
 
@@ -24,22 +24,22 @@ section {
         text-align: center;
 
         &-title {
-            font-size: 30px;
-            padding: 30px;
+            font-size: $SIZE3;
+            padding: $SIZE3;
             padding-top: 80px;
-            animation: ease-in animation 2s;
+            @extend .animation;
             }
 
         &-text {
-            font-size: 20px;
-            padding: 30px;
+            font-size: $SIZE4;
+            padding: $SIZE3;
             font-family: "Joan";
         }
 
         &-img-x {
             transition: all 1s;
-            padding-top: 20px;
-            padding-bottom: 30px;
+            padding-top: $SIZE4;
+            padding-bottom: $SIZE3;
 
             &:hover {
                 transform: scale(1.1);
