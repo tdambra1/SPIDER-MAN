@@ -293,7 +293,7 @@ a {
   font-size: 20px;
   padding: 20px;
   font-family: "Joan";
-  text-align: center;
+  text-align: start;
 }
 
 .grid {
@@ -316,7 +316,7 @@ a {
   background: rgb(130, 0, 0);
 }
 .sinistersix__text {
-  text-align: center;
+  text-align: justify;
   font-family: "Joan";
   font-size: 20px;
   padding: 30px;

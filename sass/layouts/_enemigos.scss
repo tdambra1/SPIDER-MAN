@@ -65,7 +65,7 @@
             font-size: $SIZE4;
             padding: $SIZE4;
             font-family: $FONT;
-            text-align: center;
+            text-align: start;
         }
     }
 }
@@ -93,7 +93,7 @@
     background: $RED;
 
     &__text {
-        text-align: center;
+        text-align: justify;
         font-family: $FONT;
         font-size: $SIZE4;
         padding: $SIZE3;
