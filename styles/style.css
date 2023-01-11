@@ -215,6 +215,7 @@ a {
   font-size: 20px;
   padding: 20px;
   font-family: "Joan";
+  text-align: start;
 }
 .multiverse__videotitle {
   text-align: center;

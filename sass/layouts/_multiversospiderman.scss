@@ -47,6 +47,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
     
         &-img {
             height: 370px;
@@ -64,6 +65,7 @@
             font-size: $SIZE4;
             padding: $SIZE4;
             font-family: "Joan";
+            text-align: start;
         }
     
     }
