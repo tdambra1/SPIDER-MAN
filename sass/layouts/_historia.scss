@@ -7,13 +7,14 @@
         font-size: $SIZE2;
         padding: $SIZE1;
         @extend .animation;
+        font-weight: bold;
         
     }
 
     &__article {
         padding: $SIZE5;
         display: flex;
-        align-items: center;    
+        align-items: center;
 
         &-img {
             height: 400px;
@@ -30,6 +31,7 @@
             padding: $SIZE4;
             font-family: $FONT;
             font-style: oblique;
+            font-weight: bold;
         }
     }
 }
@@ -42,6 +44,7 @@
         padding-top: 100px;
         font-family: $FONT;
         @extend .animation;
+        font-weight: bold;
     }
 
     &__position {

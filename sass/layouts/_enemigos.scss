@@ -31,6 +31,7 @@
         font-weight: 350;
         font-family: $FONT;
         @extend .animation;
+        font-weight: bold;
     }
 
     &__titleright {
@@ -42,6 +43,7 @@
         font-family: $FONT;
         text-align: end;
         @extend .animation;
+        font-weight: bold;
     }
 
     &__text {
@@ -49,6 +51,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        font-weight: bold;
+        font-style: oblique;
     
         &-img {
             height: 370px;
@@ -80,6 +84,7 @@
     
     &__img {
         transition: all 1s;
+        padding-bottom: 10px;
     
         &:hover {
             transform: scale(1.2);
@@ -96,6 +101,8 @@
         font-family: $FONT;
         font-size: $SIZE4;
         padding: $SIZE3;
+        font-weight: bold;
+        font-style: italic;
     }
 
     &__title {
@@ -103,6 +110,7 @@
         font-family: $FONT;
         font-size: $SIZE2;
         padding: $SIZE3;
+        font-weight: bold;
     }
 
     &__continueto {

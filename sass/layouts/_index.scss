@@ -1,3 +1,8 @@
+.navbar-brand {
+    font-weight: bold;
+}
+
+
 .nav__backgroundphoto {
     border: 5px ;
     padding: 10px 10px;
@@ -7,6 +12,11 @@
     background-attachment: fixed;
     background-position: center;
     padding: 600px 100px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    font-weight: bold;
 }
 
 .text {
@@ -22,11 +32,13 @@
         padding-top: $SIZE1;
         padding-bottom: 0px;
         font-size: $SIZE4;
+        font-weight: bold;
     }
 
     &__two {
         font-size: $SIZE4;
         padding-top: 0px;
+        font-weight: bold;
     }
 }
 

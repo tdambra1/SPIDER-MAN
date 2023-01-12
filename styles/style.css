@@ -77,6 +77,10 @@ a {
   font-family: "Joan";
 }
 
+.navbar-brand {
+  font-weight: bold;
+}
+
 .nav__backgroundphoto {
   border: 5px;
   padding: 10px 10px;
@@ -86,6 +90,11 @@ a {
   background-attachment: fixed;
   background-position: center;
   padding: 600px 100px;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  font-weight: bold;
 }
 
 .text {
@@ -101,10 +110,12 @@ a {
   padding-top: 50px;
   padding-bottom: 0px;
   font-size: 20px;
+  font-weight: bold;
 }
 .text__two {
   font-size: 20px;
   padding-top: 0px;
+  font-weight: bold;
 }
 
 .start {
@@ -121,6 +132,7 @@ a {
   font-family: "Joan";
   font-size: 40px;
   padding: 50px;
+  font-weight: bold;
 }
 .story__article {
   padding: 15px;
@@ -140,6 +152,7 @@ a {
   padding: 20px;
   font-family: "Joan";
   font-style: oblique;
+  font-weight: bold;
 }
 
 .video__title {
@@ -147,6 +160,7 @@ a {
   text-align: center;
   padding-top: 100px;
   font-family: "Joan";
+  font-weight: bold;
 }
 .video__position {
   text-align: center;
@@ -168,6 +182,7 @@ a {
 .intro__title {
   font-size: 30px;
   backface-visibility: hidden;
+  font-weight: bold;
 }
 .intro__p {
   font-size: 20px;
@@ -177,6 +192,7 @@ a {
   background-image: url(../images/Wallpaper.jpg);
   background-position: center;
   background-size: cover;
+  font-style: oblique;
 }
 
 .multiverse__titleleft {
@@ -186,6 +202,7 @@ a {
   font-weight: 350;
   font-family: "Joan";
   text-align: start;
+  font-weight: bold;
 }
 .multiverse__titleright {
   padding: 15px;
@@ -194,12 +211,15 @@ a {
   font-weight: 350;
   font-family: "Joan";
   text-align: end;
+  font-weight: bold;
 }
 .multiverse__text {
   padding: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-style: oblique;
+  font-weight: bold;
 }
 .multiverse__text-img {
   height: 370px;
@@ -223,6 +243,7 @@ a {
   font-family: "Joan";
   padding-top: 30px;
   padding-bottom: 40px;
+  font-weight: bold;
 }
 .multiverse__video {
   text-align: center;
@@ -264,6 +285,7 @@ a {
   font-style: bold;
   font-weight: 350;
   font-family: "Joan";
+  font-weight: bold;
 }
 .enemies__titleright {
   padding: 15px;
@@ -273,12 +295,15 @@ a {
   font-weight: 350;
   font-family: "Joan";
   text-align: end;
+  font-weight: bold;
 }
 .enemies__text {
   padding: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-weight: bold;
+  font-style: oblique;
 }
 .enemies__text-img {
   height: 370px;
@@ -306,6 +331,7 @@ a {
 }
 .grid__img {
   transition: all 1s;
+  padding-bottom: 10px;
 }
 .grid__img:hover {
   transform: scale(1.2);
@@ -319,12 +345,15 @@ a {
   font-family: "Joan";
   font-size: 20px;
   padding: 30px;
+  font-weight: bold;
+  font-style: italic;
 }
 .sinistersix__title {
   text-align: center;
   font-family: "Joan";
   font-size: 40px;
   padding: 30px;
+  font-weight: bold;
 }
 .sinistersix__continueto {
   text-align: center;
@@ -339,10 +368,13 @@ a {
   text-align: center;
   font-size: 30px;
   padding-top: 30px;
+  font-weight: bold;
 }
 .movies__text {
   text-align: center;
   padding: 30px;
+  font-weight: bold;
+  font-style: oblique;
 }
 
 section {
@@ -356,6 +388,8 @@ section {
   font-size: 30px;
   padding: 30px;
   padding-top: 80px;
+  font-weight: bold;
+  font-style: normal;
 }
 .movies__raimiwebbmcu-text {
   font-size: 20px;

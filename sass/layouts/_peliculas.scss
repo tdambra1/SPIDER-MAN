@@ -6,11 +6,15 @@
         font-size: $SIZE3;
         @extend .animation;
         padding-top: $SIZE3;
+        font-weight: bold;
+        
     }
 
     &__text {
         text-align: center;
         padding: $SIZE3;
+        font-weight: bold;
+        font-style: oblique;
     }
 }
 
@@ -28,6 +32,8 @@ section {
             padding: $SIZE3;
             padding-top: 80px;
             @extend .animation;
+            font-weight: bold;
+            font-style: normal;
             }
 
         &-text {
